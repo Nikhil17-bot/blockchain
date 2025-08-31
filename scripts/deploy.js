@@ -6,7 +6,7 @@ async function main() {
 
   await contract.deployed();
 
-  console.log("CertificateRevocation deployed to:", contract.address);
+  console.log("CertificateRevocation deployed to:", contract.address); //my new commit
 }
 
 main()
